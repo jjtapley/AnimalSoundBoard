@@ -1,0 +1,90 @@
+html {
+    font-size: 10px;
+    background: url('https://ae01.alicdn.com/kf/HTB1a_CpRpXXXXXlaXXXq6xXFXXXw/5x7FT-Cartoon-Farm-Wood-Fence-Hills-Red-Barn-Barnyard-Garden-Custom-Photo-Studio-Backdrop-Background-Vinyl.jpg') bottom center;
+    background-size: cover;
+}
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.keys {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.key {
+    border: .4rem solid #ffffff;
+    border-radius: .5rem;
+    margin: auto;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 20rem;
+    height: 15rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    background-size: 100%;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+}
+
+.cow {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/468/340/original/vector-cow-realistic-illustration.jpg');
+}
+
+.cat {
+    background-image: url('https://thumbs.dreamstime.com/z/calico-cat-vector-flat-design-illustration-breed-cute-tricolor-standing-raised-tail-isolated-white-background-purebred-pet-86441517.jpg');
+}
+
+.dog {
+    background-image: url('https://superawesomevectors.com/wp-content/uploads/2018/07/beagle-dog-vector-800x566.jpg');
+    background-size: 110%;
+}
+
+.goat{
+    background-image: url('https://images.all-free-download.com/images/graphiclarge/realistic_goats_vector_graphics_574150.jpg');
+}
+
+.sheep {
+    background-image: url('https://media.istockphoto.com/vectors/flat-sheep-illustration-vector-id478412624?k=6&m=478412624&s=612x612&w=0&h=uIM54zW-7x1o_4e9pLrl17Rj4DHE73gCcG0r6ZrM5FI=');
+}
+
+.horse {
+    background-image: url('http://www.dailyfreepsd.com/wp-content/uploads/2013/06/brown-cartoon-horse-.jpg');
+}
+
+.pig {
+    background-image: url('https://image.freepik.com/free-vector/pig-cartoon_119631-128.jpg');
+}
+
+.rooster {
+    background-image: url('https://cdn1.vectorstock.com/i/1000x1000/54/25/colorful-rooster-vector-12345425.jpg');
+}
+
+.duck {
+    background-image: url('https://media.istockphoto.com/vectors/cute-cartoon-duck-vector-id959502004?k=6&m=959502004&s=612x612&w=0&h=HHJ-iY4kOqi9citMr3-ptYa_Nb0H18EHsuvuNdaqs9k=');
+}
