@@ -1,20 +1,32 @@
-html {
-    font-size: 10px;
-    background: url('https://ae01.alicdn.com/kf/HTB1a_CpRpXXXXXlaXXXq6xXFXXXw/5x7FT-Cartoon-Farm-Wood-Fence-Hills-Red-Barn-Barnyard-Garden-Custom-Photo-Studio-Backdrop-Background-Vinyl.jpg') bottom center;
-    background-size: cover;
-}
 
-body,html {
+html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
+
+body {
+
+    font-size: 10px;
+    font-family: sans-serif;
+    background: url('https://ae01.alicdn.com/kf/HTB1a_CpRpXXXXXlaXXXq6xXFXXXw/5x7FT-Cartoon-Farm-Wood-Fence-Hills-Red-Barn-Barnyard-Garden-Custom-Photo-Studio-Backdrop-Background-Vinyl.jpg') no-repeat bottom center;
+    background-size: 120%;
+}
+
+header {
+    padding-top: 0;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    font-size: 1rem;
+}
+
 
 .keys {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    min-height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 20px;
     align-items: center;
 }
 
@@ -25,8 +37,8 @@ body,html {
     font-size: 1.5rem;
     padding: 1rem .5rem;
     transition: all .07s ease;
-    width: 20rem;
-    height: 15rem;
+    width: 15rem;
+    height: 10rem;
     text-align: center;
     color: white;
     background: rgba(0,0,0,0.4);
